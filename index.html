@@ -1,40 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="index.js" defer></script>
-    <!-- <script src="//unpkg.com/alpinejs" defer></script> -->
-    <!-- <style>
-        body {
-            background-image: url(https://wallpaperaccess.com/full/2154269.jpg);
-        }
-    </style> -->
+    <title>JS in the browser</title>
+    <link rel="stylesheet" href="style.css" >
+
 
 </head>
-
 <body>
 
-    <div class="myMessage">
-        <button class="theMessageButton">Show message</button>
-        <input type="text" class="theInputValue">
+    <div class="timedMSG">
 
+    </div>
+    <div class="myMessage">
 
     </div>
 
-    <ul class="fruits">
+
+    <button class="theMessageButton">Show message</button>
+
+    <button class="clearBtn">Clear Message</button>
+
+    <input type="text" class="theInputValue">
+
+    <br>
+
+    
+
+
+    <h4>Fruit List</h4>
+
+    <ul class="fruits" >
 
     </ul>
+    
+    <button type="button" class="fruitButton">Add</button>
 
-    <!-- <h2>Message widget</h2>
-    <div x-data="{ message : "", enteredMessage : "" }">
-        <div x-text="message"></div>
-        <button x-on:click="message = enteredMessage">Show message</button>
-    </div> -->
+    <input type="text" class="fruitBox" />
 
+    <script src="index.js" defer ></script>
 </body>
-
 </html>
